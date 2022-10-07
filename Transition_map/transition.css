@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+}
+
+.cat{
+    height: 400px;
+    position: relative;
+    left: 350px;
+    filter: grayscale(100%);
+    transition-timing-function: ease-in-out;
+}
+
+.cat:hover{
+    /*width: 200px;*/
+    filter: grayscale(0%);
+    transition-duration: 0.2s;
+    color: red;
+}
+
+.mushroom{
+    position: relative;
+    right: 170px;
+    top: 400px;
+}
